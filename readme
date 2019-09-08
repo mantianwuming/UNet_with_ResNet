@@ -1,1 +1,10 @@
 need a resnet101-5d3b4d8f.pth, may get it from pytorch's official website.
+
+make a filefolder named models, and put resnet101-5d3b4d8f.pth in it, then make a filefolder named train.
+
+the filefloder looks like this:
+
+./models/train
+./models/resnet101-5d3b4d8f.pth
+
+after train, your trained model will stay in ./models/train, then use predict.py to get the result picture.
